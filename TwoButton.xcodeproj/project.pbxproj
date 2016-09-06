@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200212561D6AE3910050922B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200212551D6AE3910050922B /* main.m */; };
+		200212591D6AE3910050922B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200212581D6AE3910050922B /* AppDelegate.m */; };
+		2002125C1D6AE3910050922B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002125B1D6AE3910050922B /* ViewController.m */; };
+		2002125F1D6AE3910050922B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2002125D1D6AE3910050922B /* Main.storyboard */; };
+		200212611D6AE3910050922B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200212601D6AE3910050922B /* Assets.xcassets */; };
+		200212641D6AE3910050922B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200212621D6AE3910050922B /* LaunchScreen.storyboard */; };
+		20F055021D7EC76E007F3875 /* 66.44分类.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F054FB1D7EC76E007F3875 /* 66.44分类.png */; };
+		20F055031D7EC76E007F3875 /* 66.44搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F054FC1D7EC76E007F3875 /* 66.44搜索.png */; };
+		20F055041D7EC76E007F3875 /* TwoButtonTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F054FE1D7EC76E007F3875 /* TwoButtonTitle.m */; };
+		20F055061D7EC76E007F3875 /* 货架png.png in Resources */ = {isa = PBXBuildFile; fileRef = 20F055011D7EC76E007F3875 /* 货架png.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200212511D6AE3910050922B /* TwoButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		200212551D6AE3910050922B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		200212571D6AE3910050922B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		200212581D6AE3910050922B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2002125A1D6AE3910050922B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2002125B1D6AE3910050922B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2002125E1D6AE3910050922B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		200212601D6AE3910050922B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		200212631D6AE3910050922B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		200212651D6AE3910050922B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F054FB1D7EC76E007F3875 /* 66.44分类.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "66.44分类.png"; sourceTree = "<group>"; };
+		20F054FC1D7EC76E007F3875 /* 66.44搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "66.44搜索.png"; sourceTree = "<group>"; };
+		20F054FD1D7EC76E007F3875 /* TwoButtonTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoButtonTitle.h; sourceTree = "<group>"; };
+		20F054FE1D7EC76E007F3875 /* TwoButtonTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoButtonTitle.m; sourceTree = "<group>"; };
+		20F055011D7EC76E007F3875 /* 货架png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "货架png.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2002124E1D6AE3910050922B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200212481D6AE3910050922B = {
+			isa = PBXGroup;
+			children = (
+				200212531D6AE3910050922B /* TwoButton */,
+				200212521D6AE3910050922B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		200212521D6AE3910050922B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				200212511D6AE3910050922B /* TwoButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		200212531D6AE3910050922B /* TwoButton */ = {
+			isa = PBXGroup;
+			children = (
+				200212571D6AE3910050922B /* AppDelegate.h */,
+				200212581D6AE3910050922B /* AppDelegate.m */,
+				2002125A1D6AE3910050922B /* ViewController.h */,
+				2002125B1D6AE3910050922B /* ViewController.m */,
+				20F054FA1D7EC76E007F3875 /* 6.4两行 title */,
+				2002125D1D6AE3910050922B /* Main.storyboard */,
+				200212601D6AE3910050922B /* Assets.xcassets */,
+				200212621D6AE3910050922B /* LaunchScreen.storyboard */,
+				200212651D6AE3910050922B /* Info.plist */,
+				200212541D6AE3910050922B /* Supporting Files */,
+			);
+			path = TwoButton;
+			sourceTree = "<group>";
+		};
+		200212541D6AE3910050922B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				200212551D6AE3910050922B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20F054FA1D7EC76E007F3875 /* 6.4两行 title */ = {
+			isa = PBXGroup;
+			children = (
+				20F054FB1D7EC76E007F3875 /* 66.44分类.png */,
+				20F054FC1D7EC76E007F3875 /* 66.44搜索.png */,
+				20F054FD1D7EC76E007F3875 /* TwoButtonTitle.h */,
+				20F054FE1D7EC76E007F3875 /* TwoButtonTitle.m */,
+				20F055011D7EC76E007F3875 /* 货架png.png */,
+			);
+			path = "6.4两行 title";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		200212501D6AE3910050922B /* TwoButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 200212681D6AE3910050922B /* Build configuration list for PBXNativeTarget "TwoButton" */;
+			buildPhases = (
+				2002124D1D6AE3910050922B /* Sources */,
+				2002124E1D6AE3910050922B /* Frameworks */,
+				2002124F1D6AE3910050922B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoButton;
+			productName = TwoButton;
+			productReference = 200212511D6AE3910050922B /* TwoButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		200212491D6AE3910050922B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yuhuixia;
+				TargetAttributes = {
+					200212501D6AE3910050922B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2002124C1D6AE3910050922B /* Build configuration list for PBXProject "TwoButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 200212481D6AE3910050922B;
+			productRefGroup = 200212521D6AE3910050922B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				200212501D6AE3910050922B /* TwoButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2002124F1D6AE3910050922B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20F055061D7EC76E007F3875 /* 货架png.png in Resources */,
+				20F055031D7EC76E007F3875 /* 66.44搜索.png in Resources */,
+				200212641D6AE3910050922B /* LaunchScreen.storyboard in Resources */,
+				20F055021D7EC76E007F3875 /* 66.44分类.png in Resources */,
+				200212611D6AE3910050922B /* Assets.xcassets in Resources */,
+				2002125F1D6AE3910050922B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2002124D1D6AE3910050922B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2002125C1D6AE3910050922B /* ViewController.m in Sources */,
+				20F055041D7EC76E007F3875 /* TwoButtonTitle.m in Sources */,
+				200212591D6AE3910050922B /* AppDelegate.m in Sources */,
+				200212561D6AE3910050922B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2002125D1D6AE3910050922B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2002125E1D6AE3910050922B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		200212621D6AE3910050922B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200212631D6AE3910050922B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		200212661D6AE3910050922B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		200212671D6AE3910050922B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		200212691D6AE3910050922B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyintec.xuxian.TwoButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2002126A1D6AE3910050922B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TwoButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyintec.xuxian.TwoButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2002124C1D6AE3910050922B /* Build configuration list for PBXProject "TwoButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200212661D6AE3910050922B /* Debug */,
+				200212671D6AE3910050922B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		200212681D6AE3910050922B /* Build configuration list for PBXNativeTarget "TwoButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200212691D6AE3910050922B /* Debug */,
+				2002126A1D6AE3910050922B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 200212491D6AE3910050922B /* Project object */;
+}
